@@ -2,7 +2,7 @@ name: Publish canary image to GitHub Container Registry
 
 on:
   push:
-    branches: [ main ]
+    branches: [ main, local]
   workflow_dispatch:
 
 permissions:
